@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: #f1f1f1;
+    background-color: aqua;
+    color: #fff;
     font-family: "Lato", sans-serif;
   }
   
@@ -41,4 +41,17 @@ body {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+
+  #place-button{
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 35px;
+    display: none;
+  }
+
+  #VRButton{
+    margin-bottom: 70px !important;
   }
