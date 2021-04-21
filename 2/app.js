@@ -61,6 +61,11 @@ class App{
 			} );
             
 		} 
+
+        const collection = document.getElementsByClassName("ar-button");
+        [...collection].forEach( el => {
+            el.style.display = 'block';
+        });
         
         const self = this;
 
